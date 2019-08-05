@@ -1,0 +1,131 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+	width: 17.5%;
+	transform:translateX(471.5%);
+
+}
+
+
+h3{
+	color:rgb(255,250,100);
+}
+.table{
+	color: rgb(200,245,141);
+
+
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	opacity: 0.9;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:red;
+	opacity: 0.7;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+.section {
+	position: relative;
+}
+
+.section .section-center {
+	position: absolute;
+	left:-50%;
+	right: 0;
+
+}
+
+.bgimg {
+	font-family: 'Lato', sans-serif;
+	background-image: url('../img/contactinformation.jpg');
+	background-size:cover;
+	background-position:center;
+	color: #191a1e;
+}
+
+.contact-form {
+	position: relative;
+	background: #fff;
+	max-width: 642px;
+	width: 100%;
+	margin: auto;
+	padding: 45px 25px 25px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
+
+.contact-form .form-group {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+
+
+
+.contact-cta p {
+	font-size: 22px;
+	color: #191a1e;
+}
+
+
+
+
+.contact-cta {
+	margin-top: 45px;
+}
+
+
+
+.container{
+		position: relative;
+}
+
+
+
+
+.contact-form  label {
+	position: relative;
+	padding-top: 4px;
+	padding-left: 30px;
+	font-weight: 700;
+	color:black;
+
+}
+
+.contact-form label+label {
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+.contact-form .form-control:focus {
+	background: #f9fafb;
+}

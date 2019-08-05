@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="rand http://www.w3.org/2001/XMLSchema-instance"
+         xmlns=" random shiothttp://java.sun.com/xml/ns/javaee"
+         xmlns:web=" rand http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation=" rand http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID"
+         version="2.5">
+<servlet>
+<servlet-name>useforauth</servlet-name>
+<servlet-class>com.example.web.Authentication</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>useforauth</servlet-name>
+<url-pattern>/authenticate</url-pattern>
+</servlet-mapping>
+</web-app>
